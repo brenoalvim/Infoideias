@@ -3,7 +3,7 @@
 echo $seculoAno = seculoAno('1905');
 echo $seculoAno = seculoAno('1700');
 
-function seculoAno($ano)
+function seculoAno(int $ano)
 {
     if ($ano < 1) {
         return "Ano inválido";

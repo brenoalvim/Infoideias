@@ -1,6 +1,6 @@
 <?php
 
-function ascendingSequence($array)
+function ascendingSequence(array $array)
 {
     if (sizeof($array) == 1) {
         return " True";

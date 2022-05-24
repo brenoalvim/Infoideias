@@ -1,7 +1,6 @@
 <?php
 
 echo $seculoAno = seculoAno('1905');
-echo "<hr>";
 echo $seculoAno = seculoAno('1700');
 
 function seculoAno($ano)
@@ -15,5 +14,5 @@ function seculoAno($ano)
 
     $seculo = explode(".", $calc);
 
-    return  "Ano " . $ano . " - Século " . $seculo[0];
+    return  "Ano " . $ano . " - Século " . $seculo[0] . "<br>";
 }
